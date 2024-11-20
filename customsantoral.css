@@ -1,0 +1,47 @@
+.feedspot-widget {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feedspot-widget__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.feedspot-widget__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.feedspot-widget__date {
+  font-size: 1rem;
+  font-weight: medium;
+}
+
+.feedspot-widget__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.feedspot-widget__event {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.feedspot-widget__event-title {
+  font-size: 1rem;
+  font-weight: medium;
+  margin-bottom: 0.5rem;
+}
+
+.feedspot-widget__event-description {
+  font-size: 0.875rem;
+  color: #4a5568;
+}
